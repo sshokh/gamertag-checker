@@ -20,13 +20,12 @@ class GamertagChecker:
             logger.success(f"Found an available gamertag: {gamertag}")
             return True
 
-        logger.error(f"Gamertag {gamertag} is not available.")
+        logger.debug(f"Gamertag {gamertag} is not available.")
         return False
 
     def save(self, gamertag):
         with open("availables.txt", "a") as file:
             file.write(f"{gamertag}\n")
-            file.close()
 
 
 if __name__ == "__main__":
