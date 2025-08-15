@@ -1,4 +1,4 @@
-# Xbox Gamertag Generator & Checker
+# Xbox Gamertag Checker
 
 This tool generates random Xbox gamertags, checks their availability using [xboxgamertag.com](https://xboxgamertag.com), and saves any available gamertags into a file.
 
